@@ -4,7 +4,7 @@ var serviceAccount = require("./service_key.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://spill-203e7-default-rtdb.firebaseio.com"
+  databaseURL: " "
 });
 
 const firestore = admin.firestore();
